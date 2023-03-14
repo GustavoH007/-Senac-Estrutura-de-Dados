@@ -5,7 +5,7 @@ import estrutura.Pessoa;
 
 
 /*
-*  Professor Gerson Risso
+*  Gustavo Horikochi
  */
 public class CadastroPessoas {
     
@@ -28,7 +28,7 @@ public class CadastroPessoas {
         if (p != null) {
             System.out.println(p);
         } else {
-            System.out.println("N‡o Achei");
+            System.out.println("N√†o Achei");
         } */
 
         MeuArray.mostrar();
@@ -38,7 +38,7 @@ public class CadastroPessoas {
         if (MeuArray.remover(id)) {
             System.out.println("ID = " + id + " removido com sucesso");
         } else {
-            System.out.println("Cadastro n„o removido");
+            System.out.println("Cadastro n√£o removido");
         }
         MeuArray.mostrar();
     }    
