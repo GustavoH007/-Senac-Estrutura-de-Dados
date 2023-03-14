@@ -5,7 +5,7 @@ import estrutura.Pessoa;
 
 
 /*
-*  Professor Gerson Risso
+*  Gustavo Horikochi
  */
 public class CadastroPessoas {
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class CadastroPessoas {
         if (p != null) {
             System.out.println(p);
         } else {
-            System.out.println("Nào Achei");
+            System.out.println("NÃ o Achei");
         }
     }    
 }
