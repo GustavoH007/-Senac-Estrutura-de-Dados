@@ -1,7 +1,7 @@
 package estrutura;
 
 /*
- *  Professor Gerson Risso
+ *  Gustavo Horikochi
  */
 public class Pessoa {
 
