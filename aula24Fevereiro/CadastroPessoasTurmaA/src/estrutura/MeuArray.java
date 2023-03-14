@@ -1,7 +1,7 @@
 package estrutura;
 
 /*
- *  Professor Gerson Risso
+ *  Gustavo Horikochi
  */
 public class MeuArray {
     private static Pessoa [] lista = new Pessoa[10000];
@@ -38,7 +38,7 @@ public class MeuArray {
                 fim = meio - 1;
             }
         }
-        System.out.println("Nào encontrado");   
+        System.out.println("NÃ o encontrado");   
         return null;
     }
     
