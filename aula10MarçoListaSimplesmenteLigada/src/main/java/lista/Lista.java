@@ -19,7 +19,7 @@ public class Lista {
         } else {
             atual = new Elemento(objeto, null);
             aux.setProx(atual);
-            aux = atual;
+            aux = atual; //Fica junto do atual
         }
     }
 }
