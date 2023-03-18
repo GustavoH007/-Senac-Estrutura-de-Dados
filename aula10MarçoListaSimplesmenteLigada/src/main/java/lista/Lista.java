@@ -22,4 +22,12 @@ public class Lista {
             aux = atual; //Fica junto do atual
         }
     }
+    
+    public void exibir() {
+        Elemento x = inicio;
+        while(x != null) {
+            System.out.println(x);
+            x = x.getProx();
+        }
+    }
 }
