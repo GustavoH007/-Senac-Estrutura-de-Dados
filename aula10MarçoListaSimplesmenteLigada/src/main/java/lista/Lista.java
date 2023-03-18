@@ -26,7 +26,7 @@ public class Lista {
     public void exibir() {
         Elemento x = inicio;
         while(x != null) {
-            System.out.println(x);
+            System.out.println(x.getObjeto());
             x = x.getProx();
         }
     }
