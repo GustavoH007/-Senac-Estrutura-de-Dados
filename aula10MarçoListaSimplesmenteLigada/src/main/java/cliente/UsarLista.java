@@ -9,9 +9,18 @@ package cliente;
  *
  * @author gustavo.horikochi
  */
-public class UsarLista {
+
+import lista.*;
+
+public class UsarLista { 
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Lista lista = new Lista();
+        lista.inserir(new Contato("Gerson","123-333"));
+        lista.inserir(new Contato("Sandra","855-235"));
+        lista.inserir(new Contato("Anna","955-232"));
+        lista.inserir(new Contato("José","353-232"));
+        
+        lista.exibir();
     }
 }
