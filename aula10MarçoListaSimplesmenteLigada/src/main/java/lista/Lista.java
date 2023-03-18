@@ -13,7 +13,7 @@ public class Lista {
     private Elemento inicio, atual, aux;
 
     public void inserir(Object objeto) {
-        if (inicio == null) {
+        if (inicio == null) { //Verifica lista vazia
             inicio = new Elemento(objeto, null);
             aux = inicio;
         } else {
