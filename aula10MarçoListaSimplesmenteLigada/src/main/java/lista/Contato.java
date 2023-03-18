@@ -8,7 +8,7 @@ package lista;
  *
  * @author gustavo.horikochi
  */
-public class Contato {
+public class Contato { //TAD - Tipo Abstrato de Dados
 
     private String nome, telefone;
     private int id;
